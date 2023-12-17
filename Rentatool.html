@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible"
+		content="IE=edge">
+	<meta name="viewport"
+		content="width=device-width,
+				initial-scale=1.0">
+	<title>Rent Tools</title>
+	<link rel="stylesheet"
+		href="renttool.css">
+	<link rel="stylesheet"
+		href="responsive.css">
+</head>
+
+<body>
+
+	<!-- for header part -->
+	<header>
+
+		<div class="logosec">
+			<div class="logo">AgroJunction</div>
+            
+		</div>
+
+		
+
+		<div class="message">
+			<div class="circle"></div>
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183322/8.png"
+				class="icn"
+				alt="">
+			<div class="dp">
+			<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180014/profile-removebg-preview.png"
+					class="dpicn"
+					alt="dp">
+			</div>
+		</div>
+
+	</header>
+
+	<div class="main-container">
+		<div class="navcontainer">
+			<nav class="nav">
+				<div class="nav-upper-options">
+					<a  href="index.html">
+						<button class ="login">
+					<div class="option2 nav-option">
+						<img src=
+"https://cdn-icons-png.flaticon.com/512/1828/1828791.png"
+							class="nav-img"
+							alt="dashboard">
+						<h3> Dashboard</h3>
+					</div>
+					</button>
+					</a>
+					<div class="nav-upper-options">
+						<a  href="Tools.html">
+						<button class ="login">
+							<div class="option2 nav-option">
+								<img src=
+		"gardening-tools.png"
+									class="nav-img"
+									alt="Tools">
+									
+										<h3> TOOLS</h3>
+								 
+								
+							</div>
+						</button>
+						</a>
+					<a  href="Rentatool.html">
+							<button class ="login">
+					<div class="nav-option option1">
+					<img src=
+						"https://cdn1.iconfinder.com/data/icons/general-9/500/add-1024.png"
+							class="nav-img"
+							alt="report">
+						<h3> RENT A TOOL</h3>
+					</div>
+					</button>
+					</a>
+
+					<a href="history.html">
+					<div class="nav-option option4">
+						<img src=
+"https://cdn-icons-png.flaticon.com/512/3503/3503786.png"
+							class="nav-img"
+							alt="institution">
+						<h3> HISTORY</h3>
+					</div>
+				</a>
+
+					<div class="nav-option option5">
+						<img src=
+"https://cdn-icons-png.flaticon.com/512/64/64572.png"
+							class="nav-img"
+							alt="blog">
+						<h3> Profile</h3>
+					</div>
+
+					<a href="ListTool.html">
+					<div class="nav-option option6">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183320/4.png"
+							class="nav-img"
+							alt="settings">
+						<h3> List your tool</h3>
+					</div>
+				</a>
+
+					<a  href="login.html">
+					<button class ="login">
+
+
+					<div class="nav-option logout">
+						<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210183321/7.png"
+							class="nav-img"
+							alt="logout">
+						<h3>Logout</h3>
+					</div>
+					</button>
+					</a>
+
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+
+			<div class="searchbar2">
+				<input type="text"
+					name=""
+					id=""
+					placeholder="Search">
+				<div class="searchbtn">
+				<img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20221210180758/Untitled-design-(28).png"
+						class="icn srchicn"
+						alt="search-button">
+				</div>
+			</div>
+
+
+			<div class="report-container">
+				<div class="report-header">
+					<h1 class="recent-Articles">Availabe Tools</h1>
+				</div>
+
+				<div class="addingtool">
+					<div class="selecttool">
+						<label for="Tool">Choose a tool :</label>
+	
+						<select name="tools" id="tools" required>
+						<option value="choose" disabled selected>Choose a tool</option>
+						<option value="tractor">Tractor</option>
+						<option value="cultivator">Cultivator</option>
+						<option value="seeddrill">Seed Drill</option>
+						<option value="sprayer">Sprayers</option>
+						<option value="harvester">Harvester</option>
+						<option value="Haybalers">Hay Balers</option>
+						</select>
+					</div>
+					<div class="pricerange">
+						<label for="pricestart">Price starting from :</label>
+						<input type="number">
+						<label for="priceend">to :</label>
+						<input type="number">
+					</div>
+					<div class="proceedbutton">
+						<button class="proceed">Proceed</button>
+					</div>
+					<div class="details">
+						<h3 id="name">Jagat Singh</h3>
+						<h3 id="toolname">Tractor</h3>
+						<h3 id="tooldesc">well in Conditioned</h3>
+						<h3 id="price">Rs. 100/hr</h3>
+						<button class="viewimg">View image</button>
+						<button class="checkout">Checkout</button>
+					</div>
+					
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./index.js"></script>
+</body>
+</html>
