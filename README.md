@@ -1,4 +1,6 @@
 # Agrojunction
+
+AgroJunction emerged from a deep-seated passion for the farming community and a commitment to bridging the gap between tradition and technology. Our founders, a diverse group of individuals with backgrounds in agriculture and technology, came together with the belief that a modern, tech-driven approach could revolutionize the way we farm.
 an agricultural rental and online shopping platform AgroJunction:
 
 ---
