@@ -28,3 +28,17 @@ const scrollHandler = () => {
 
 window.addEventListener('scroll', scrollHandler);
 
+// Mobile menu toggle
+const menuToggle = document.querySelector('.menu-toggle');
+const navigation = document.querySelector('.navigation');
+
+menuToggle.addEventListener('click', () => {
+    navigation.classList.toggle('active');
+});
+
+// Close menu when clicking outside
+document.addEventListener('click', (e) => {
+    if (!navigation.contains(e.target) && !menuToggle.contains(e.target)) {
+        navigation.classList.remove('active');
+    }
+});

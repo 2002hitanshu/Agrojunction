@@ -452,5 +452,115 @@ ul{
     font-size:13px;
     margin-bottom:0;
   }
+/* Mobile-specific styles - these will only apply at smaller screens */
+@media (max-width: 768px) {
+  /* Header adjustments */
+  header {
+      padding: 20px 30px;
+  }
+  
+  .logo {
+      margin-right: 0;
+      font-size: 1.5em;
+  }
+  
+  .navigation {
+      position: fixed;
+      top: 80px;
+      right: -100%;
+      width: 250px;
+      height: 100vh;
+      background: #fff;
+      flex-direction: column;
+      padding: 20px;
+      transition: 0.3s;
+      box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navigation.active {
+      right: 0;
+  }
+  
+  .navigation a {
+      margin: 15px 0;
+      display: block;
+  }
+  
+  .navigation .btnLogin-popup {
+      margin-left: 0;
+      margin-top: 20px;
+  }
+  
+  /* Parallax section adjustments */
+  #text {
+      font-size: 3em;
+      text-align: center;
+      width: 100%;
+      padding: 0 20px;
+  }
+  
+  /* Hero section adjustments */
+  .hero-titles {
+      padding: 110px 20px 0 20px;
+  }
+  
+  .hero-title, .hero-title2 {
+      font-size: 36px;
+  }
+  
+  .hero-titles iframe {
+      width: 100%;
+      height: 300px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  
+  /* Section adjustments */
+  .sec {
+      padding: 50px 20px;
+  }
+  
+  .sec h2 {
+      font-size: 2em;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .hero-title, .hero-title2 {
+      font-size: 28px;
+      letter-spacing: 2px;
+  }
+  
+  #text {
+      font-size: 2.5em;
+  }
+  
+  .sec h2 {
+      font-size: 1.8em;
+  }
+}
+
+/* Add hamburger menu styles */
+.menu-toggle {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #359381;
+  background: none;
+  border: none;
+  padding: 5px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: block;
+  }
+}
+  
   
   
